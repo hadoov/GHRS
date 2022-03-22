@@ -18,11 +18,9 @@ The framework of the proposed recommendation system. The method encodes the comb
 
 ## Scripts
 
-[Feature100K.py](https://github.com/hadoov/GHRS/blob/main/Features100K.py): 
-Creates similarity graph between users, extracts graph features and generates the final feature vector by combining the graph features and categorized side information for users (Steps 1, 2 and 3 of GHRS) on dataset MovieLens 100K [2].
+[Feature100K.py](https://github.com/hadoov/GHRS/blob/main/Features100K.py): Creates similarity graph between users, extracts graph features and generates the final feature vector by combining the graph features and categorized side information for users (Steps 1, 2 and 3 of GHRS) on dataset MovieLens 100K [2].
 
-[Feature1M.py](https://github.com/hadoov/GHRS/blob/main/Features1M.py): 
-Creates similarity graph between users, extracts graph features and generates the final feature vector by combining the graph features and categorized side information for users (Steps 1, 2 and 3 of GHRS) on dataset MovieLens 1M [2].
+[Feature1M.py](https://github.com/hadoov/GHRS/blob/main/Features1M.py): Creates similarity graph between users, extracts graph features and generates the final feature vector by combining the graph features and categorized side information for users (Steps 1, 2 and 3 of GHRS) on dataset MovieLens 1M [2].
 
 ## Data
 
@@ -53,4 +51,5 @@ If you find this research interesting or this repo useful, please cite the main 
 
 ## References
 [1] Darban, Z. Z., & Valipour, M. H. (2022). GHRS: Graph-based hybrid recommendation system with application to movie recommendation. _Expert Systems with Applications_, 116850.
+
 [2] Harper, F. M., & Konstan, J. A. (2015). The movielens datasets: History and context. _Acm transactions on interactive intelligent systems (tiis)_, _5_(4), 1-19.
