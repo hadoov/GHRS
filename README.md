@@ -1,5 +1,7 @@
 # GHRS: Graph-based hybrid recommendation system
 
+*"This repo is being updated. Please Watch the repo for upcomming updates and codes"*
+
 Partial implementation for : [GHRS: Graph-based hybrid recommendation system with application to movie recommendation](https://doi.org/10.1016/j.eswa.2022.116850) [Updated pdf on [arXiv](https://doi.org/10.48550/arXiv.2111.11293)]
 ## Summary
 **GHRS** is a Graph-based hybrid recommendation system for movie recommendation
