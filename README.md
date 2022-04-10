@@ -52,6 +52,6 @@ If you find this research interesting or this repo useful, please cite the main 
     }
 
 ## References
-[1] Darban, Z. Z., & Valipour, M. H. (2022). GHRS: Graph-based hybrid recommendation system with application to movie recommendation. _Expert Systems with Applications_, 116850.
+[1] Darban, Z. Z., & Valipour, M. H. (2022). [GHRS: Graph-based hybrid recommendation system with application to movie recommendation](https://www.sciencedirect.com/science/article/abs/pii/S0957417422003025). _Expert Systems with Applications_, 116850.
 
-[2] Harper, F. M., & Konstan, J. A. (2015). The movielens datasets: History and context. _Acm transactions on interactive intelligent systems (tiis)_, _5_(4), 1-19.
+[2] Harper, F. M., & Konstan, J. A. (2015). [The movielens datasets: History and context](https://dl.acm.org/doi/10.1145/2827872). _Acm transactions on interactive intelligent systems (tiis)_, _5_(4), 1-19.
