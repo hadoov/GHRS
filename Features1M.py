@@ -40,7 +40,7 @@ df_user = df_user.drop('bin', 1)
 df_user = convert_categorical(df_user, 'age')
 df_user = df_user.drop('zip', 1)
 
-alpha_coefs = [0.045] #[0.005, 0.01, 0.015, 0.02, 0.025, 0.03, 0.035, 0.04, 0.045]
+alpha_coefs = [0.04] #[0.005, 0.01, 0.015, 0.02, 0.025, 0.03, 0.035, 0.04, 0.045]
 
 for alpha_coef in alpha_coefs:
     pairs = []
