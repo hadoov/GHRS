@@ -3,17 +3,17 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ghrs-graph-based-hybrid-recommendation-system/collaborative-filtering-on-movielens-100k)](https://paperswithcode.com/sota/collaborative-filtering-on-movielens-100k?p=ghrs-graph-based-hybrid-recommendation-system)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ghrs-graph-based-hybrid-recommendation-system/collaborative-filtering-on-movielens-1m)](https://paperswithcode.com/sota/collaborative-filtering-on-movielens-1m?p=ghrs-graph-based-hybrid-recommendation-system)
 
-*"This repo is being updated. Please Watch the repo for upcomming updates and codes"*
+*"This repo is being updated. Please Watch the repo for upcoming updates and codes"*
 
 Partial implementation for : [GHRS: Graph-based hybrid recommendation system with application to movie recommendation](https://doi.org/10.1016/j.eswa.2022.116850) [pre-print on [arXiv](https://doi.org/10.48550/arXiv.2111.11293)]
 ## Summary
 **GHRS** is a Graph-based hybrid recommendation system for movie recommendation
-> Research about recommender systems emerges over the last decade and comprises valuable services to increase different companies' revenue. Several approaches exist in handling paper recommender systems. While most existing recommender systems rely either on a content-based approach or a collaborative approach, there are hybrid approaches that can improve recommendation accuracy using a combination of both approaches. Even though many algorithms are proposed using such methods, it is still necessary for further improvement. In this paper, we propose a recommender system method using a graph-based model associated with the similarity of users' ratings, in combination with users' demographic and location information. By utilizing the advantages of Autoencoder feature extraction, we extract new features based on all combined attributes. Using the new set of features for clustering users, our proposed approach (GHRS) has gained a significant improvement, which dominates other methods' performance in the cold-start problem. The experimental results on the MovieLens dataset show that the proposed algorithm outperforms many existing recommendation algorithms on recommendation accuracy. [1]
+> Research about recommender systems has emerged over the last decade and comprises valuable services to increase different companies' revenue. Several approaches exist in handling paper recommender systems. While most existing recommender systems rely either on a content-based approach or a collaborative approach, there are hybrid approaches that can improve recommendation accuracy using a combination of both approaches. Even though many algorithms are proposed using such methods, further improvement is still necessary. In this paper, we propose a recommender system method using a graph-based model associated with the similarity of users' ratings in combination with users' demographic and location information. By utilizing the advantages of Autoencoder feature extraction, we extract new features based on all combined attributes. Using the new set of features for clustering users, our proposed approach (GHRS) has gained a significant improvement, which dominates other methods' performance in the cold-start problem. The experimental results on the MovieLens dataset show that the proposed algorithm outperforms many existing recommendation algorithms in terms of recommendation accuracy. [1]
 
 
-![The framework of the proposed recommendation system. The method encodes the combined features with autoencoder and creates the model by clustering the users using the encoded features (upper part). At last, a preference-based ranking model is used to retrieve the predicted movie rank for the target user (lower part)](https://raw.githubusercontent.com/hadoov/GHRS/main/Figs/ghrs-structure.png)
+![The framework of the proposed recommendation system. The method encodes the combined features with an autoencoder and creates the model by clustering the users using the encoded features (upper part). At last, a preference-based ranking model is used to retrieve the predicted movie rank for the target user (lower part)](https://raw.githubusercontent.com/hadoov/GHRS/main/Figs/ghrs-structure.png)
 
-The framework of the proposed recommendation system. The method encodes the combined features with autoencoder and creates the model by clustering the users using the encoded features (upper part). At last, a preference-based ranking model is used to retrieve the predicted movie rank for the target user (lower part)
+The framework of the proposed recommendation system. The method encodes the combined features with an autoencoder and creates the model by clustering the users using the encoded features (upper part). At last, a preference-based ranking model is used to retrieve the predicted movie rank for the target user (lower part)
 
 ## Required Libraries
 - ScikitLearn
@@ -32,11 +32,11 @@ The framework of the proposed recommendation system. The method encodes the comb
      |-datasets
      | |-ml-100k	# MovieLens 100K dataset files
      | |-ml-1m		# MovieLens 1M dataset files
-     |-data100k		# Combined features (graph features and side information) for specific value of alpha for dataset MovieLens 100K
+     |-data100k		# Combined features (graph features and side information) for a specific value of alpha for dataset MovieLens 100K
      | |-x_train_alpha(0.005).pkl
      | |-x_train_alpha(0.01).pkl
      | |...
-     |-data1m		# Combined features (graph features and side information) for specific value of alpha for dataset MovieLens 1M
+     |-data1m		# Combined features (graph features and side information) for a specific value of alpha for dataset MovieLens 1M
      | |-x_train_alpha(0.005).pkl
      | |-x_train_alpha(0.01).pkl
      | |...
